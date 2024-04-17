@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+      <div class="logo">Logo</div>
+      <div></div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="gallery.html">Galleria</a></li>
+        <li><a href="battle.html">Battle</a></li>
+       
+      </ul>
+    </nav>
+    </div>
+    <div class="main-title">
+         <img
+        class="title"
+        src="image/International_Pokémon_logo.svg.png"
+        alt=""
+      />
+      <img
+        class="ball-title"
+        src="image/Enamel_Pokeball_01_Top-View.webp"
+        alt=""
+      />
+
+      </div>
+     
+      <img
+        src="../Pokemon-project/image/Enamel_Pokeball_01_Top-View.webp"
+        alt=""
+      />
+    </div>
+
+    <div class="game-b">
+
+    <div class="select-g">
+      <label  for="pokemon1-select">Choose Pokemon 1:</label>
+      <select id="pokemon1-select"></select>
+
+    </div>
+    
+    <div class="select-g">
+      <label for="pokemon2-select">Choose Pokemon 2:</label>
+      <select id="pokemon2-select"></select>
+
+    </div>
+
+    </div>
+    
+
+    
+    <button onclick="startBattle()">Start Battle</button>
+
+    <div class="battlefield">
+      <div id="battle-log"></div>
+      <div id="pokemon-info"></div>
+    </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 Student Purposes. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
