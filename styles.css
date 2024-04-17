@@ -592,3 +592,11 @@ audio{
   align-self: center;
   padding: 10px;
 }
+
+.logo{
+  width: 120px;
+
+}
+.logo img{
+  width: 120px;
+}
